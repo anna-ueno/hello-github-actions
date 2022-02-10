@@ -1,7 +1,6 @@
 name: A workflow for my Hello World file
 
 on: push
-
 jobs:
 
   build:
@@ -17,5 +16,6 @@ jobs:
 	      - uses: ./action-a
 	
 	        with:
-	
-       MY_NAME: "anna-ueno"
+		
+		  MY_NAME: "Mona"
+
